@@ -45,7 +45,7 @@ const QuantitySelector = (props: Props) => {
       </div>
       {/* Buy Now Button */}
       <Button onClick={handleBuyNow} className='w-full mt-10'>
-        Buy Now
+        Add to cart
       </Button>
     </div>
   );

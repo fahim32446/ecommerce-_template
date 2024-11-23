@@ -21,7 +21,7 @@ const RecentProductWithSwiper = (props: Props) => {
     <div className='relative'>
       <div className='flex items-center justify-between'>
         <div>
-          <h3 className='text-primary'>Recent Product</h3>
+          <h3 className='text-primary'>Recommended Product</h3>
           <h3 className='text-2xl font-bold'>Grab Also</h3>
         </div>
         <div className='flex gap-3'>

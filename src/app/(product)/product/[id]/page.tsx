@@ -78,7 +78,6 @@ export default function ProductDetails() {
       </div>
 
       {/* Recent Product */}
-
       <div className='mt-10'>
         <RecentProductWithSwiper />
       </div>
