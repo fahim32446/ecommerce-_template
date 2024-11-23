@@ -3,9 +3,7 @@ import { Input } from '@/components/ui/input';
 import { MinusIcon, PlusIcon } from 'lucide-react';
 import { useState } from 'react';
 
-type Props = {};
-
-const QuantitySelector = (props: Props) => {
+const QuantitySelector = () => {
   const [quantity, setQuantity] = useState(1);
 
   const incrementQuantity = () => setQuantity((prev) => prev + 1);

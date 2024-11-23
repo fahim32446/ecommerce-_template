@@ -5,9 +5,7 @@ import { Star } from 'lucide-react';
 import Image from 'next/image';
 import { useRouter } from 'next/navigation';
 
-type Props = {};
-
-const RecentProduct = (props: Props) => {
+const RecentProduct = () => {
   const router = useRouter();
 
   return (

@@ -12,9 +12,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import { useRef } from 'react';
 
-type Props = {};
-
-const RecentProductWithSwiper = (props: Props) => {
+const RecentProductWithSwiper = () => {
   const router = useRouter();
   const swiperRef = useRef(null) as any;
   return (

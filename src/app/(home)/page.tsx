@@ -1,14 +1,11 @@
 import { Button } from '@/components/ui/button';
-import { MoveDownRight, MoveUpRight } from 'lucide-react';
-import Image from 'next/image';
-import HoverButton from './_components/HeroButton';
 import { config } from '@/data';
+import Image from 'next/image';
 import FeaturedProduct from './_components/FeaturedProduct';
+import HoverButton from './_components/HeroButton';
 import RecentProduct from './_components/RecentProduct';
 
-type Props = {};
-
-const page = (props: Props) => {
+const page = () => {
   return (
     <>
       {/* HERO SECTION */}
@@ -41,7 +38,7 @@ const page = (props: Props) => {
       >
         <div className='container flex flex-col md:flex-row md:justify-between md:items-center h-full gap-4 md:md-0'>
           {config.ticker_info.map((item, index) => (
-            <div className='flex gap-3 text-white items-start'>
+            <div key={index} className='flex gap-3 text-white items-start'>
               <Image src={item.icon} height={32} width={32} alt='icon' />
               <div>
                 <h2 className='text-xl'>{item.name}</h2>
